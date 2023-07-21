@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
@@ -22,6 +22,7 @@ body {
 
 #title {
     font-size: 3rem;
+    border: 2px solid purple;
 }
 
 #navBar {
@@ -47,6 +48,7 @@ a {
     max-width: 375px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     border: 2px solid red;
 
 }
