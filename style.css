@@ -99,3 +99,30 @@ button {
     max-width: 200px;
     text-align: center;
 }
+
+#thirdSectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+#thirdSectionSubContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    gap: 10px;
+}
+#quote {
+    text-align: left;
+    max-width: 800px;
+    font-size: 2rem;
+    opacity: .6;
+}
+
+
+#quoteAuthor {
+    text-align: right;
+    /* align-self: center; */
+}
